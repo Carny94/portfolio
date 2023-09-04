@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.Experience-container {
+  display: flex;
+  background-color: rgb(13, 35, 57);
+  justify-content: center; 
+}
+
+
+
+.backend-table {
+  background-color: lightgrey;
+  width: 300px;
+  border: 1px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.frontend-table {
+  background-color: lightgrey;
+  width: 300px;
+  border: 1px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two columns */
+  gap: 10px; /* Adjust the gap between list items */
+}
+
+

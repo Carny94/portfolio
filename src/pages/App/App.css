@@ -4,14 +4,25 @@
 
 .Experience-container {
   display: flex;
-  background-color: rgb(13, 35, 57);
+  background-color: rgb(3, 8, 12);
   justify-content: center; 
 }
 
+.monitor-background {
+  background-image: url('/public/binary.jpeg');
+ 
+}
+
+.About-me {
+  display: flex;
+  justify-content: flex-start;
+
+
+}
 
 
 .backend-table {
-  background-color: lightgrey;
+  background-color: black;
   width: 300px;
   border: 1px solid green;
   padding: 50px;
@@ -19,7 +30,7 @@
 }
 
 .frontend-table {
-  background-color: lightgrey;
+  background-color: black;
   width: 300px;
   border: 1px solid green;
   padding: 50px;
@@ -34,5 +45,30 @@ ul {
   grid-template-columns: repeat(2, 1fr); /* Two columns */
   gap: 10px; /* Adjust the gap between list items */
 }
+
+/* Target the div with the id "my-image" */
+#my-image {
+  /* Set a maximum width for the div */
+  max-width: 200px;
+  /* Center the div horizontally using margin */
+  margin: 0 auto;
+  /* Add some padding around the div */
+  padding: 20px;
+  /* Add a border around the div */
+
+}
+
+/* Target the img element inside the div */
+#my-image img {
+  /* Set a maximum width for the image */
+  max-width: 100%;
+  /* Center the image within the div */
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  
+}
+
+
 
 

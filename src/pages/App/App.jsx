@@ -1,22 +1,23 @@
 
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.css';
 
 export default function App() {
   return (
     <main className="App">
-      
+      <div className="monitor-background">
       <h2>Hi There Im</h2>
      <h1>Carneala Odom</h1> 
-
+<div id="my-image">
+     <img src="./avatar.png" alt="avatar" />
+</div>
      <p class="About-me">
-      I am a Bay Area Native full-stack developer who takes joy in learning new coding languages❤️
+     I am a Bay Area Native full-stack developer who takes joy in learning new coding languages❤️
       Transitioning from a career in property management, I've embarked on an exciting journey into the dynamic 
-      world of web development, and I'm here to make a statement. My love for learning is the driving force behind my career transition.
-      I thrive on the challenges that coding languages present and embrace every opportunity to expand my skill set. 
+      world of web development, and I'm here to make a statement. <br></br> My love for learning is the driving force behind my career transition.
+      I thrive on the challenges that coding languages present and embrace every opportunity to expand my skill set.  <br></br>
       In this ever-evolving field, I see each project as an opportunity to grow, adapt, and push the boundaries of what's possible.
      </p>
-
+</div>
   <div className="Experience-container">
   
   <div className="frontend-table">
@@ -44,17 +45,42 @@ export default function App() {
 </div>
 </div>
 
+<div className="Portfolio-1">
+ <a href="https://luxd-90407e25f855.herokuapp.com/stylist/new">
+  <h2>LuxD Reviews</h2>
+ </a>
+
+ <img src="./luximg.png" alt="love" width="400" height="250"/>
+
+  
+
+  
+
+</div>
+
+<div className="Portfolio-2">
+  <a href="https://github.com/andrewsegovia00/CuisineQuest">
+  <h2>Cuisine Quest</h2>
+  </a>
+  <img src="./CQ.png" alt="love" width="400" height="250"/>
 
 
-     
+  
+  
 
-      
+</div>
+
+<div className="Portfolio">
+  <h2>BlessDay</h2>
+  
 
 
-      
+  
 
-    </main>
-  );
+</div>
+  </main>
+);
 }
+
 
 

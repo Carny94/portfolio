@@ -1,6 +1,10 @@
-.App {
-  text-align: center;
+
+.hi {
+  display: flex;
+  justify-content: center;
+  
 }
+
 
 .Experience-container {
   display: flex;
@@ -8,16 +12,11 @@
   justify-content: center; 
 }
 
-.monitor-background {
-  background-image: url('/public/binary.jpeg');
- 
-}
-
-.About-me {
+.About-me-container {
   display: flex;
   justify-content: flex-start;
-
-
+  width: 300px;
+  margin: 10%;
 }
 
 
@@ -33,7 +32,7 @@
   background-color: black;
   width: 300px;
   border: 1px solid green;
-  padding: 50px;
+  padding: 10px;
   margin: 20px;
 }
 
@@ -46,28 +45,17 @@ ul {
   gap: 10px; /* Adjust the gap between list items */
 }
 
-/* Target the div with the id "my-image" */
-#my-image {
-  /* Set a maximum width for the div */
-  max-width: 200px;
-  /* Center the div horizontally using margin */
-  margin: 0 auto;
-  /* Add some padding around the div */
-  padding: 20px;
-  /* Add a border around the div */
 
-}
+.my-image-container {
+  display: flex;
+  justify-content: flex-end;
+  height: 200px;
+  margin: 20%;
+ 
+} 
 
-/* Target the img element inside the div */
-#my-image img {
-  /* Set a maximum width for the image */
-  max-width: 100%;
-  /* Center the image within the div */
-  display: block;
-  margin: 0 auto;
-  border-radius: 50%;
-  
-}
+
+
 
 
 

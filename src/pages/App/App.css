@@ -1,58 +1,104 @@
 
-.hi {
+.html {
+  scroll-behavior: somooth;
+}
+.Carneala {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  
+  align-items: center;
 }
 
+
+.typewrite {
+  display: flex;
+  justify-content: center;
+}
+
+.Main-container-1 {
+  display: flex; /* Use Flexbox */
+  align-items: center; /* Vertically center the content */
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+  padding-top: 10%;
+  padding: auto;
+
+}
+
+.About-me-container 
+.About-me
+{
+  margin-right: 5%;
+  flex-grow: 1;
+}
+
+
+
+.my-image-container {
+  display: flex;
+  justify-content: flex-start;
+  height: 500px;
+  margin-right: 15%;
+  margin-left: 5%;
+} 
 
 .Experience-container {
   display: flex;
   background-color: rgb(3, 8, 12);
   justify-content: center; 
-}
-
-.About-me-container {
-  display: flex;
-  justify-content: flex-start;
-  width: 300px;
-  margin: 10%;
+  align-items: center;
 }
 
 
-.backend-table {
+
+.backend-table, 
+.frontend-table
+
+{
   background-color: black;
-  width: 300px;
-  border: 1px solid green;
-  padding: 50px;
-  margin: 20px;
-}
-
-.frontend-table {
-  background-color: black;
-  width: 300px;
+  width: 400px;
   border: 1px solid green;
   padding: 10px;
   margin: 20px;
+  text-align: center;
 }
 
-ul {
+.b1 {
+  list-style-image: url(../../../public/icons8-coding-16.png);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+
+
+.ul {
   list-style: none;
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  gap: 10px; /* Adjust the gap between list items */
+  text-align: center;
+}
+
+.li {
+  vertical-align: middle;
+  display: inline-block; /* Display list items in a row */
+  margin: 5px; /* Adjust the margin between list items */
+  list-style-image: url(../../../public/icons8-coding-16.png);
+}
+
+.Portfolio-Container
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 
-.my-image-container {
-  display: flex;
-  justify-content: flex-end;
-  height: 200px;
-  margin: 20%;
- 
-} 
+
 
 
 

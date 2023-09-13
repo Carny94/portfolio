@@ -60,9 +60,9 @@ export default function TxtTyping () {
     };
 
     return (
-        
+
         <h1>
-        <a href="" class="typewrite" data-period="2000"
+        <a href="" className="typewrite" data-period="2000"
           data-type='[ "Hi, Im Carneala.", "I am a Fullstack Developer.", "I Love Design.", "I Love to Develop." ]'>
           <span class="wrap"></span>
         </a>

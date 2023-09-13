@@ -1,12 +1,16 @@
 import './App.css';
 import TxtTyping from '../../components/TxtTyping/TxtTyping';
-
+import Section from '../../components/Section/Section';
+import NavBar from '../../components/NavBar/NavBar';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 
 export default function App() {
   return (
 
     <>
+    
+    
       <div className="Carneala">
         <h1>Hi</h1>
         <h1>Im Carneala</h1>
@@ -27,6 +31,7 @@ export default function App() {
           </p>
         </div>
       </div>
+      
       <div className="Experience-container">
 
         <div className="frontend-table">

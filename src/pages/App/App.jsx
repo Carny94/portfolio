@@ -1,22 +1,27 @@
 import './App.css';
 import TxtTyping from '../../components/TxtTyping/TxtTyping';
-import Section from '../../components/Section/Section';
 import NavBar from '../../components/NavBar/NavBar';
-import { Link, animateScroll as scroll } from "react-scroll";
 
 
 export default function App() {
+
+  
+
   return (
 
     <>
-    
-    
-      <div className="Carneala">
+
+{/* NavBar Items */}
+
+  <NavBar />    
+
+
+      <div className="Carneala" id="Carneala">
         <h1>Hi</h1>
         <h1>Im Carneala</h1>
       </div>
       <TxtTyping />
-      <div className="Main-container-1">
+      <div className="Main-container-1" id="Main-container">
         <div className="my-image-container">
           <img src="./avatar.png" alt="avatar" />
         </div>
@@ -28,11 +33,12 @@ export default function App() {
             world of web development, and I'm here to make a statement. <br></br> My love for learning is the driving force behind my career transition.
             I thrive on the challenges that coding languages present and embrace every opportunity to expand my skill set.  <br></br>
             In this ever-evolving field, I see each project as an opportunity to grow, adapt, and push the boundaries of what's possible.
+        
           </p>
         </div>
       </div>
-      
-      <div className="Experience-container">
+
+      <div className="Experience-container" id="Experience-container">
 
         <div className="frontend-table">
           <h2>Front End</h2>
@@ -58,7 +64,7 @@ export default function App() {
           </ul>
         </div>
       </div>
-      <div className="Portfolio-Container">
+      <div className="Portfolio-Container" id="Portfolio-Container">
         <div className="Portfolio-1">
           <a href="https://luxd-90407e25f855.herokuapp.com/stylist/new">
             <h2>LuxD Reviews</h2>

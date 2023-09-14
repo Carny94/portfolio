@@ -1,19 +1,21 @@
-import { Link, animateScroll as scroll } from "react-scroll";
+import App from "../../pages/App/App"
+import './NavBar.css';
 
-export default function NavBar () {
 
-   return (
-    <nav className="nav" id="navbar">
-        
-    <ul className="nav-items">
-            <li className="nav-item">About Carneala</li>
-            <li className="nav-item">Experience</li>
-            <li className="nav-item">Project</li>
-            <li className="nav-item">Lets Link</li>
-            <li className="nav-item">Section 5</li>
-          </ul>
-       
-    </nav>
-   );
-  }
+export default function NavBar() {
 
+    return (
+        <>
+            <nav>
+                <ul className="nav-ul">
+                    <li className="nav-li"><a href="#Main-container">About Carneala</a></li>
+                    <li className="nav-li"><a href="#Experience-container">Experience</a></li>
+                    <li className="nav-li"><a href="#Portfolio-Container">Portfolio</a></li>
+                </ul>
+            </nav>
+
+        </>
+
+    )
+
+}

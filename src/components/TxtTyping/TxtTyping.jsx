@@ -1,4 +1,4 @@
-
+import './TxtTyping.css';
 
 export default function TxtTyping () {
     
@@ -62,8 +62,8 @@ export default function TxtTyping () {
     return (
 
         <h1>
-        <a href="" className="typewrite" data-period="2000"
-          data-type='[ "Hi, Im Carneala.", "I am a Fullstack Developer.", "I Love Design.", "I Love to Develop." ]'>
+        <a href="" className="typewrite" data-period="3000"
+          data-type='[ "I am a Fullstack Developer.", "I Love to Design.", "I Love to Develop." ]'>
           <span class="wrap"></span>
         </a>
         

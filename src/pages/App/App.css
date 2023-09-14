@@ -32,6 +32,14 @@
 {
   margin-right: 5%;
   flex-grow: 1;
+  top: 50px; /* Adjust the top position as needed */
+  left: 50px; /* Adjust the left position as needed */
+  width: 300px; /* Adjust the width to make it a square */
+  height: 300px;
+  padding: 20px; /* Add padding for content */
+  border: 2px solid blue; /* Add a border */
+
+  
 }
 
 

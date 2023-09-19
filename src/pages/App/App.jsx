@@ -5,15 +5,15 @@ import NavBar from '../../components/NavBar/NavBar';
 
 export default function App() {
 
-  
+
 
   return (
 
     <>
 
-{/* NavBar Items */}
+      {/* NavBar Items */}
 
-  <NavBar />    
+      <NavBar />
 
 
       <div className="Carneala" id="Carneala">
@@ -27,13 +27,25 @@ export default function App() {
         </div>
 
         <div className="About-me-container">
+          <div className="square-container">
+            <div className="square">
+              Development Experience
+              1+
+            </div>
+            <div className="square-2">
+              Property management experience
+            </div>
+            <div className="square-3">
+              4 projects
+            </div>
+          </div>
           <p className="About-me">
             I am a Bay Area Native full-stack developer who takes joy in learning new coding languages❤️
             Transitioning from a career in property management, I've embarked on an exciting journey into the dynamic
             world of web development, and I'm here to make a statement. <br></br> My love for learning is the driving force behind my career transition.
             I thrive on the challenges that coding languages present and embrace every opportunity to expand my skill set.  <br></br>
             In this ever-evolving field, I see each project as an opportunity to grow, adapt, and push the boundaries of what's possible.
-        
+
           </p>
         </div>
       </div>

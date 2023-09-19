@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 
@@ -35,11 +36,12 @@
   top: 50px; /* Adjust the top position as needed */
   left: 50px; /* Adjust the left position as needed */
   padding: 20px; /* Add padding for content */
-  
-
-  
 }
 
+.About-me {
+  display: flex;
+  justify-content: center;
+}
 
 
 .my-image-container {
@@ -59,15 +61,21 @@
 }
 .square-container {
   display: flex;
-  justify-content: space-between; /* Distribute squares evenly */
-  flex-direction: r;
+  justify-content: center;
 }
 
 .square, .square-2, .square-3 {
-  height: 100px;
-  width: 100px;
-  background-color: blue;
-  
+  height: 120px;
+  width: 120px;
+  text-align: center;
+  font-size: 14px;
+  justify-content: center;
+  border: 2px solid green;
+  margin: 2%;
+}
+
+.lower-text {
+  margin-top: 30px; /* Adjust the margin to control the vertical position */
 }
 
 .backend-table, 

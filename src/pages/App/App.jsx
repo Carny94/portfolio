@@ -17,8 +17,8 @@ export default function App() {
 
 
       <div className="Carneala" id="Carneala">
-        <h1>Hi</h1>
-        <h1>Im Carneala</h1>
+        <h3>Hi</h3>
+        <h2>Im Carneala</h2>
       </div>
       <TxtTyping />
       <div className="Main-container-1" id="Main-container">
@@ -28,9 +28,9 @@ export default function App() {
 
         <div className="About-me-container">
           <div className="square-container">
-            <div className="square">
-              Development Experience
-              1+
+            <div class="square">
+              Development Experience<br />
+              <div className="lower-text">1+</div>
             </div>
             <div className="square-2">
               Property management experience

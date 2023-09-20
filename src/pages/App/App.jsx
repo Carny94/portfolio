@@ -29,23 +29,25 @@ export default function App() {
         <div className="About-me-container">
           <div className="square-container">
             <div class="square">
-              Development Experience<br />
+              <h5>Development Experience<br /></h5>
               <div className="lower-text">1+</div>
             </div>
             <div className="square-2">
-              Property management experience
+             <h5>Property Mgmt Experience</h5>
+              <div className="lower-text">8+</div>
+
             </div>
             <div className="square-3">
-              4 projects
+              <h5>Coded Projects<br /></h5>
+              <div className="lower-text">4+</div>
             </div>
           </div>
           <p className="About-me">
             I am a Bay Area Native full-stack developer who takes joy in learning new coding languages❤️
             Transitioning from a career in property management, I've embarked on an exciting journey into the dynamic
-            world of web development, and I'm here to make a statement. <br></br> My love for learning is the driving force behind my career transition.
-            I thrive on the challenges that coding languages present and embrace every opportunity to expand my skill set.  <br></br>
+            world of web development, and I'm here to make a statement. My love for learning is the driving force behind my career transition.
+            I thrive on the challenges that coding languages present and embrace every opportunity to expand my skill set.  
             In this ever-evolving field, I see each project as an opportunity to grow, adapt, and push the boundaries of what's possible.
-
           </p>
         </div>
       </div>

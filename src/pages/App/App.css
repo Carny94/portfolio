@@ -2,14 +2,40 @@
 .html {
   scroll-behavior: somooth;
 }
+img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
 .Carneala {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
+.Carneala h3 {
+  margin-top:5%;
+  margin-bottom: 0%;
+}
+
+.Carneala h2 {
+  margin-top: 0%;
+}
 
 .typewrite {
   display: flex;
@@ -38,11 +64,15 @@
   padding: 20px; /* Add padding for content */
 }
 
-.About-me {
+.About-me{
   display: flex;
   justify-content: center;
+  font-family: 'Bebas Neue', sans-serif;
+  width:350px;
+  font-size: 18px;
+  
+  
 }
-
 
 .my-image-container {
   display: flex;
@@ -62,6 +92,7 @@
 .square-container {
   display: flex;
   justify-content: center;
+  margin-left: -5%;
 }
 
 .square, .square-2, .square-3 {
@@ -70,8 +101,12 @@
   text-align: center;
   font-size: 14px;
   justify-content: center;
-  border: 2px solid green;
+  border: solid green;
   margin: 2%;
+  border:1px solid green;
+  border-width: 3px 3px 5px 5px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
 }
 
 .lower-text {
@@ -88,6 +123,10 @@
   padding: 10px;
   margin: 20px;
   text-align: center;
+  border:1px solid green;
+  border-width: 3px 3px 5px 5px;
+  border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
 }
 
 .b1 {
@@ -104,6 +143,7 @@
   margin: 0;
   display: grid;
   text-align: center;
+ 
 }
 
 .li {
@@ -122,6 +162,7 @@
   text-align: center;
 }
 
+ 
 
 
 

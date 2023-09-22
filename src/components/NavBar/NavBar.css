@@ -15,7 +15,8 @@
   }
   
  .nav-li a {
-    display: block;
+    display: flex;
+    justify-content: center;
     color: white;
     text-align: center;
     padding: 14px 16px;

@@ -53,6 +53,15 @@ img:hover {
   padding: auto;
 
 }
+.section-header {
+  display: flex;
+  justify-content: center;
+  font-size: 24px; /* Adjust the font size as needed */
+  color:antiquewhite; 
+  margin-bottom: -10%;
+  margin-right: -40%;
+  font-family: 'Bangers', cursive;
+}
 
 .About-me-container 
 .About-me
@@ -70,9 +79,9 @@ img:hover {
   font-family: 'Bebas Neue', sans-serif;
   width:350px;
   font-size: 18px;
-  
-  
 }
+
+
 
 .my-image-container {
   display: flex;
@@ -81,13 +90,29 @@ img:hover {
   margin-right: 15%;
   margin-left: 5%;
   position: relative;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+
 } 
+
+.section-header-skills 
+ {
+  display: flex;
+  justify-content: center;
+  font-family: 'Bangers', cursive;
+  font-size: 24px; /* Adjust the font size as needed */
+  color:antiquewhite; 
+  text-align: center;
+  margin-top: -4%;
+}
 
 .Experience-container {
   display: flex;
   background-color: rgb(3, 8, 12);
   justify-content: center; 
   align-items: center;
+  
 }
 .square-container {
   display: flex;
@@ -112,6 +137,8 @@ img:hover {
 .lower-text {
   margin-top: 30px; /* Adjust the margin to control the vertical position */
 }
+
+
 
 .backend-table, 
 .frontend-table
@@ -151,6 +178,15 @@ img:hover {
   display: inline-block; /* Display list items in a row */
   margin: 5px; /* Adjust the margin between list items */
   list-style-image: url(../../../public/icons8-coding-16.png);
+}
+
+.portfolio-header {
+  display: flex;
+  justify-content: center;
+  font-family: 'Bangers', cursive;
+  font-size: 24px; /* Adjust the font size as needed */
+  color:antiquewhite; 
+  text-align: center;
 }
 
 .Portfolio-Container

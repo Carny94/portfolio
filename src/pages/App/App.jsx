@@ -5,8 +5,6 @@ import NavBar from '../../components/NavBar/NavBar';
 
 export default function App() {
 
-
-
   return (
 
     <>
@@ -21,6 +19,7 @@ export default function App() {
         <h2>Im Carneala</h2>
       </div>
       <TxtTyping />
+      <h3 className="section-header"> ABOUT CARNEALA...</h3>
       <div className="Main-container-1" id="Main-container">
         <div className="my-image-container">
           <img src="./avatar.png" alt="avatar" />
@@ -33,7 +32,7 @@ export default function App() {
               <div className="lower-text">1+</div>
             </div>
             <div className="square-2">
-             <h5>Property Mgmt Experience</h5>
+              <h5>Property Mgmt Experience</h5>
               <div className="lower-text">8+</div>
 
             </div>
@@ -46,11 +45,17 @@ export default function App() {
             I am a Bay Area Native full-stack developer who takes joy in learning new coding languages❤️
             Transitioning from a career in property management, I've embarked on an exciting journey into the dynamic
             world of web development, and I'm here to make a statement. My love for learning is the driving force behind my career transition.
-            I thrive on the challenges that coding languages present and embrace every opportunity to expand my skill set.  
+            I thrive on the challenges that coding languages present and embrace every opportunity to expand my skill set.
             In this ever-evolving field, I see each project as an opportunity to grow, adapt, and push the boundaries of what's possible.
           </p>
         </div>
       </div>
+
+
+      <h3 className="section-header-skills"> SKILLS &<br />
+
+        EXPERIENCE!
+      </h3>
 
       <div className="Experience-container" id="Experience-container">
 
@@ -78,6 +83,8 @@ export default function App() {
           </ul>
         </div>
       </div>
+
+      <h3 className="portfolio-header">RECENT WORK</h3>
       <div className="Portfolio-Container" id="Portfolio-Container">
         <div className="Portfolio-1">
           <a href="https://luxd-90407e25f855.herokuapp.com/stylist/new">

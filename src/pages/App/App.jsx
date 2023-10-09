@@ -5,6 +5,8 @@ import NavBar from '../../components/NavBar/NavBar';
 
 export default function App() {
 
+  const apiKey = process.env.API_KEY;
+
   return (
 
     <>
@@ -86,42 +88,22 @@ export default function App() {
 
       <h3 className="portfolio-header">RECENT WORK</h3>
       <div className="Portfolio-Container" id="Portfolio-Container">
-        <div className="Portfolio-1">
+        <div className="portfolio-1">
           <a href="https://luxd-90407e25f855.herokuapp.com/stylist/new">
             <h2>LuxD Reviews</h2>
           </a>
-
           <img src="./luximg.png" alt="love" width="400" height="250" />
-
-
-
-
-
         </div>
-
-        <div className="Portfolio-2">
+        <div className="portfolio-2">
           <a href="https://github.com/andrewsegovia00/CuisineQuest">
             <h2>Cuisine Quest</h2>
           </a>
           <img src="./CQ.png" alt="love" width="400" height="250" />
-
-
-
-
-
         </div>
-
-        <div className="Portfolio">
+        <div className="portfolio-3">
           <h2>BlessDay</h2>
-
-
-
-
-
         </div>
       </div>
-
-
     </>
   );
 }

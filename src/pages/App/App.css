@@ -198,6 +198,15 @@ img:hover {
   text-align: center;
 }
 
+.portfolio-1,
+.portfolio-2,
+.portfolio-3 {
+  background-color: antiquewhite; 
+  width: 450px;
+  height: 400px;
+ margin-top: 20px;
+ 
+}
  
 
 

@@ -14,6 +14,9 @@ const app = express();
 app.use(logger('dev'));
 app.use(express.json());
 
+//temp here DELETE
+const API_KEY = 'lAhj6uKv8BzF2ToUZyx65UZccL6yaZmm'
+
 // Configure both serve-favicon & static middleware
  // to serve from the production 'build' folder
  app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));

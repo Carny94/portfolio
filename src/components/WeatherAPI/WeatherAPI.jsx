@@ -12,32 +12,40 @@ export default function WeatherAPI() {
 
     async function fetchWeatherAPI() {
 
+//-------CALL OF API-----///
         try {
-
             const response = await axios.get(apiUrl);
             setWeatherData(response.data);
             setLoading(false);
-
         } catch (error) {
-
             console.error(error);
             setLoading(false);
         }
-
-
     }
+//------------------------Event Handleres------------------------------//
 
 
     return (
+<>
+        <div className="rectangle-container">
+            <h5>weather </h5>
+            <form onSubmit={fetchWeatherAPI}>
+                
 
-        <div className='.rectangle-container' >
-            
+
+
+
+
+
+
+
+            </form>
         </div>
 
 
 
 
-
+        </>
     )
 
 }

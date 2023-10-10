@@ -12,9 +12,9 @@ export default function App() {
     <>
 
       {/* NavBar Items */}
-
-      <NavBar />
       <WeatherAPI />
+      <NavBar />
+      
 
 
       <div className="Carneala" id="Carneala">

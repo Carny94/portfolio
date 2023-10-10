@@ -6,12 +6,4 @@ const weatherCTRL = require('../../controllers/api/createjournal');
 router.get('/', weatherCTRL.index);
 
 
-
-
-
-
-
-
-
-
 module.exports = router;

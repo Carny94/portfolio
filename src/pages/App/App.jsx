@@ -1,7 +1,7 @@
 import './App.css';
 import TxtTyping from '../../components/TxtTyping/TxtTyping';
 import NavBar from '../../components/NavBar/NavBar';
-
+import WeatherAPI from '../../components/WeatherAPI/WeatherAPI';
 
 export default function App() {
 
@@ -14,6 +14,7 @@ export default function App() {
       {/* NavBar Items */}
 
       <NavBar />
+      <WeatherAPI />
 
 
       <div className="Carneala" id="Carneala">
@@ -29,7 +30,7 @@ export default function App() {
 
         <div className="About-me-container">
           <div className="square-container">
-            <div class="square">
+            <div className="square">
               <h5>Development Experience<br /></h5>
               <div className="lower-text">1+</div>
             </div>

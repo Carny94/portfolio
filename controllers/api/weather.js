@@ -13,7 +13,7 @@ async function index(req, res) {
             url: 'https://us-weather-by-zip-code.p.rapidapi.com/getweatherzipcode',
             params: { zip: '94111' },
             headers: {
-              'X-RapidAPI-Key': 'edaae89300mshbb2ddde45808382p178b2cjsn7b04de6cb9db',
+              'X-RapidAPI-Key': '12a4b4ba0cmsh9074a19993d025ap11dcadjsn2e38c75c3586',
               'X-RapidAPI-Host': 'us-weather-by-zip-code.p.rapidapi.com',
             },
           };

@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const favicon = require('serve-favicon');
 const logger = require('morgan');
+const cors = require('cors');
 
 // Always require and configure near the top 
 require('dotenv').config();
@@ -13,9 +14,9 @@ const app = express();
 	
 app.use(logger('dev'));
 app.use(express.json());
+app.use(cors());
 
-//temp here DELETE
-const API_KEY = 'lAhj6uKv8BzF2ToUZyx65UZccL6yaZmm'
+
 
 // Configure both serve-favicon & static middleware
  // to serve from the production 'build' folder

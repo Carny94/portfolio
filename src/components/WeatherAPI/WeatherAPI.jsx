@@ -47,20 +47,20 @@ const handleSubmit = (e) => {
 
 return (
    <>
-     <h5>Weather App</h5>
+     <h5>Weather by Zip</h5>
       <form onSubmit={handleSubmit}>
         <label>
-          Enter ZIP Code:
-          <input type="text" value={zip} onChange={handleZipChange} />
+          <input type="text" value={zip} onChange={handleZipChange} placeholder="Enter Zipcode"/>
         </label>
-        <button type="submit">Get Temperature</button>
+        <button type="submit">Get Temp</button>
       </form>
+      {/* fix below error */}
       {temperature !== null && (
-        <div>
-          <h1>Temperature</h1>
-          <p>{temperature}°C</p>
-        </div>
-      )}
+  <div>
+    <h1>Temperature</h1>
+    <p>{((temperature * 9/5) + 32).toFixed(2)}°F</p>
+  </div>
+)}
    </>
  );
 }

@@ -2,6 +2,7 @@ import './App.css';
 import TxtTyping from '../../components/TxtTyping/TxtTyping';
 import NavBar from '../../components/NavBar/NavBar';
 import WeatherAPI from '../../components/WeatherAPI/WeatherAPI';
+import ContactForm from '../../components/ContactForm/ContactForm';
 
 export default function App() {
 
@@ -14,6 +15,7 @@ export default function App() {
       {/* NavBar Items */}
       <WeatherAPI />
       <NavBar />
+      <ContactForm />
       
 
 

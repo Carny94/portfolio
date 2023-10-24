@@ -1,64 +1,34 @@
+import { useRef} from 'react';
+import emailjs from '@emailjs/browser';
 
+export default function ContactForm() {
+  const form = useRef();
 
-export default function ContactForm () {
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-    return (
-        <div className='ContactForm'>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-12 text-center'>
-                <div className='contactForm'>
-                  <form id='contact-form' noValidate>
-                    {/* Row 1 of form */}
-                    <div className='row formRow'>
-                      <div className='col-6'>
-                        <input
-                          type='text'
-                          name='name'
-                          className='form-control formInput'
-                          placeholder='Name'
-                        ></input>
-                      </div>
-                      <div className='col-6'>
-                        <input
-                          type='email'
-                          name='email'
-                          className='form-control formInput'
-                          placeholder='Email address'
-                        ></input>
-                      </div>
-                    </div>
-                    {/* Row 2 of form */}
-                    <div className='row formRow'>
-                      <div className='col'>
-                        <input
-                          type='text'
-                          name='subject'
-                          className='form-control formInput'
-                          placeholder='Subject'
-                        ></input>
-                      </div>
-                    </div>
-                    {/* Row 3 of form */}
-                    <div className='row formRow'>
-                      <div className='col'>
-                        <textarea
-                          rows={3}
-                          name='message'
-                          className='form-control formInput'
-                          placeholder='Message'
-                        ></textarea>
-                      </div>
-                    </div>
-                    <button className='submit-btn' type='submit'>
-                      Submit
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      );
+    emailjs.sendForm('service_blom9na', 'template_y7wcib8', form.current, 'Dixz4-GTlaNm-brht')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
-}
+  return (
+      <form ref={form} onSubmit={sendEmail}>
+        <label>Subject</label>
+        <input type="text" name="from_name" />
+        <label>Name</label>
+        <input type="text" name="user_name" />
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        <label>Message</label>
+        <textarea name="message" />
+        <input type="submit" value="Send" />
+      </form>
+    );
+  };
+
+  
+

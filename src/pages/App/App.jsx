@@ -11,14 +11,8 @@ export default function App() {
   return (
 
     <>
-
-      {/* NavBar Items */}
-      <WeatherAPI />
       <NavBar />
-      <ContactForm />
-      
-
-
+    
       <div className="Carneala" id="Carneala">
         <h3>Hi</h3>
         <h2>Im Carneala</h2>
@@ -107,8 +101,12 @@ export default function App() {
           <h2>BlessDay</h2>
         </div>
       </div>
+       <ContactForm />
+       <WeatherAPI />
     </>
   );
+
+
 }
 
 

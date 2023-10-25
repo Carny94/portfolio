@@ -1,4 +1,4 @@
-
+import './WeatherAPI.css';
 import React, { useState, useEffect } from 'react';
 
 export default function WeatherAPI () {
@@ -47,20 +47,21 @@ const handleSubmit = (e) => {
 
 return (
    <>
-     <h5>Weather by Zip</h5>
-      <form onSubmit={handleSubmit}>
-        <label>
-          <input type="text" value={zip} onChange={handleZipChange} placeholder="Enter Zipcode"/>
-        </label>
-        <button type="submit">Get Temp</button>
-      </form>
-      {/* fix below error */}
-      {temperature !== null && (
-  <div>
-    <h1>Temperature</h1>
-    <p>{((temperature * 9/5) + 32).toFixed(2)}°F</p>
+      <div className="container">
+    <h5 className="weather-heading">Weather by Zip</h5>
+    <form onSubmit={handleSubmit}>
+      <label>
+        <input type="text" value={zip} onChange={handleZipChange} className="zip-input" placeholder="Enter Zipcode" />
+      </label>
+      <button type="submit" className="get-temp-button">Get Temp</button>
+    </form>
+    {temperature !== null && (
+      <div className="temperature-container">
+        <h1 className="temperature-heading">Temperature</h1>
+        <p className="temperature-value">{((temperature * 9/5) + 32).toFixed(2)}°F</p>
+      </div>
+    )}
   </div>
-)}
    </>
  );
 }

@@ -1,5 +1,35 @@
-.rectangle-container {
-    height: 50px;
-    width: 100px;
-    background-color: aliceblue;
-  }
+.container {
+  width: 300px; /* Adjust the width to your desired size */
+  height: 200px; /* Adjust the height to your desired size */
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto; /* Center the container horizontally on the page */
+  margin-bottom: 20%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.weather-heading, .temperature-heading {
+  font-size: 1.5rem; /* Adjust the font size for the headings */
+}
+
+.zip-input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.get-temp-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.temperature-container {
+  margin-top: 20px; /* Add space between the form and temperature */
+}

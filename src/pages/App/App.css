@@ -47,6 +47,16 @@ img:hover {
 display: flex;
 flex-direction: row;
 justify-content: center;
+gap: 5%;
+}
+.resume,
+.lets-talk {
+  border: 1px solid whitesmoke;
+  width:200px;
+  height:100px;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 5%;
 }
 
 .Main-container-1 {

@@ -23,7 +23,9 @@ export default function App() {
         <h6>Download CV</h6>
       </div>
       <div className="lets-talk">
+        <a href="#form-container">
         <h6>Lets Talk</h6>
+        </a>
       </div>
       </div>
       <h3 className="section-header"> ABOUT CARNEALA...</h3>

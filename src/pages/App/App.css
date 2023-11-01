@@ -26,10 +26,11 @@ img:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: antiquewhite;
 }
 
 .Carneala h3 {
-  margin-top:5%;
+  margin-top:7%;
   margin-bottom: 0%;
 }
 
@@ -43,8 +44,8 @@ img:hover {
 }
 
 .Main-container-1 {
-  display: flex; /* Use Flexbox */
-  align-items: center; /* Vertically center the content */
+  display: flex;
+  align-items: center; 
   justify-content: center;
   padding-left: 10%;
   padding-right: 10%;
@@ -68,9 +69,10 @@ img:hover {
 {
   margin-right: 5%;
   flex-grow: 1;
-  top: 50px; /* Adjust the top position as needed */
-  left: 50px; /* Adjust the left position as needed */
-  padding: 20px; /* Add padding for content */
+  top: 50px;
+  left: 50px; 
+  padding: 20px; 
+  color: antiquewhite;
 }
 
 .About-me{
@@ -80,8 +82,6 @@ img:hover {
   width:350px;
   font-size: 18px;
 }
-
-
 
 .my-image-container {
   display: flex;
@@ -120,7 +120,9 @@ img:hover {
   margin-left: -5%;
 }
 
-.square, .square-2, .square-3 {
+.square, 
+.square-2, 
+.square-3 {
   height: 120px;
   width: 120px;
   text-align: center;
@@ -128,7 +130,7 @@ img:hover {
   justify-content: center;
   border: solid green;
   margin: 2%;
-  border:1px solid green;
+  border:1px solid rgb(231, 43, 159);
   border-width: 3px 3px 5px 5px;
   border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
   transform: rotate(-2deg);
@@ -138,19 +140,15 @@ img:hover {
   margin-top: 30px; /* Adjust the margin to control the vertical position */
 }
 
-
-
 .backend-table, 
 .frontend-table
-
 {
-  background-color: black;
+  background-color: transparent;
   width: 400px;
-  border: 1px solid green;
   padding: 10px;
   margin: 20px;
   text-align: center;
-  border:1px solid green;
+  border:1px solid rgb(231, 43, 159);
   border-width: 3px 3px 5px 5px;
   border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
   transform: rotate(-2deg);

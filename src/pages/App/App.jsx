@@ -41,11 +41,12 @@ export default function App() {
             </div>
           </div>
           <p className="About-me">
-            I am a Bay Area Native full-stack developer who takes joy in learning new coding languages❤️
-            Transitioning from a career in property management, I've embarked on an exciting journey into the dynamic
-            world of web development, and I'm here to make a statement. My love for learning is the driving force behind my career transition.
-            I thrive on the challenges that coding languages present and embrace every opportunity to expand my skill set.
-            In this ever-evolving field, I see each project as an opportunity to grow, adapt, and push the boundaries of what's possible.
+            My name is Carneala Odom .I am a Bay Area Native full-stack developer❤️
+            I’m currently obtaining invaluable experience as a full-stack developer 
+            and I am looking to expand my skill set and gain even more knowledge of the industry.
+            I describe myself as dependable, proactive and ambitious. My property Management background 
+            utilizing problem-solving has helped me lead and organize software development projects, and 
+            will make me a valuable asset on any software development team.
           </p>
         </div>
       </div>

@@ -18,6 +18,14 @@ export default function App() {
         <h2>Im Carneala</h2>
       </div>
       <TxtTyping />
+      <div className="info-container">
+      <div className="resume">
+        <h6>Download CV</h6>
+      </div>
+      <div className="lets-talk">
+        <h6>Lets Talk</h6>
+      </div>
+      </div>
       <h3 className="section-header"> ABOUT CARNEALA...</h3>
       <div className="Main-container-1" id="Main-container">
         <div className="my-image-container">

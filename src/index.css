@@ -9,10 +9,10 @@ body {
   color: azure;
   background: url("../public/pink\ lamps.png");
   background-repeat: no-repeat;
-  background-position: center; 
+  /* background-position: center;  */
   background-size: cover;
- 
-  height: 100%;
+  width: 1000px;
+  margin: 0 auto;
 } 
 
 

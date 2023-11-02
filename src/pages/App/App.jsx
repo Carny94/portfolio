@@ -20,7 +20,9 @@ export default function App() {
       <TxtTyping />
       <div className="info-container">
       <div className="resume">
-        <h6>Download CV</h6>
+      <a href={process.env.PUBLIC_URL + '/carnealaResume.pdf'} target="_blank" rel="noopener noreferrer">
+    <h6>Download CV</h6>   
+      </a>   
       </div>
       <div className="lets-talk">
         <a href="#form-container">

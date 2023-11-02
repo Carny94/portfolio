@@ -6,9 +6,9 @@
   padding: 0;
   overflow: hidden;
   background-color: rgba(51, 51, 51, 0.7);
-  left: 0; /* Set left to 0 to center the navbar */
+  left: 0;
 width: 100%; 
-  display: flex; /* Use flexbox to center the links horizontally */
+  display: flex; 
   justify-content: center; 
 }
   .nav-li {

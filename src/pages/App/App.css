@@ -48,6 +48,11 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 gap: 5%;
+margin-bottom: 10%;
+}
+a {
+  color: antiquewhite;
+  text-decoration: none;
 }
 .resume,
 .lets-talk {
@@ -73,7 +78,7 @@ gap: 5%;
 .section-header {
   display: flex;
   justify-content: center;
-  font-size: 24px; /* Adjust the font size as needed */
+  font-size: 24px; 
   color:antiquewhite; 
   margin-bottom: -10%;
   margin-right: -40%;
@@ -117,7 +122,7 @@ gap: 5%;
   display: flex;
   justify-content: center;
   font-family: 'Bangers', cursive;
-  font-size: 24px; /* Adjust the font size as needed */
+  font-size: 24px; 
   color:antiquewhite; 
   text-align: center;
   margin-top: -4%;
@@ -125,7 +130,6 @@ gap: 5%;
 
 .Experience-container {
   display: flex;
-  /* background-color: rgb(3, 8, 12); */
   justify-content: center; 
   align-items: center;
   
@@ -153,7 +157,7 @@ gap: 5%;
 }
 
 .lower-text {
-  margin-top: 30px; /* Adjust the margin to control the vertical position */
+  margin-top: 30px;  
 }
 
 .backend-table, 
@@ -189,8 +193,8 @@ gap: 5%;
 
 .li {
   vertical-align: middle;
-  display: inline-block; /* Display list items in a row */
-  margin: 5px; /* Adjust the margin between list items */
+  display: inline-block; 
+  margin: 5px; 
   list-style-image: url(../../../public/icons8-coding-16.png);
 }
 
@@ -198,7 +202,7 @@ gap: 5%;
   display: flex;
   justify-content: center;
   font-family: 'Bangers', cursive;
-  font-size: 24px; /* Adjust the font size as needed */
+  font-size: 24px; 
   color:antiquewhite; 
   text-align: center;
   margin-top: 40px;

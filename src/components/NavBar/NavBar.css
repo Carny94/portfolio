@@ -13,7 +13,6 @@ width: 100%;
 }
   .nav-li {
     float:left;
-  
   }
   
  .nav-li a {
@@ -28,4 +27,38 @@ width: 100%;
 
   li a:hover {
     background-color: #111;
+  }
+
+  @media only screen and (max-width: 768px) {
+  
+    .nav-ul {
+  list-style-type: none;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(51, 51, 51, 0.7);
+  left: 0;
+width: 100%; 
+  display: flex; 
+  justify-content: center; 
+}
+  .nav-li {
+    float:left;
+  }
+  
+ .nav-li a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Bangers', cursive;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
   }

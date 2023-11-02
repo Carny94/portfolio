@@ -11,8 +11,14 @@ body {
   background-repeat: no-repeat;
   /* background-position: center;  */
   background-size: cover;
-  width: 1000px;
+  width: 1025px;
   margin: 0 auto;
 } 
 
-
+@media only screen and (max-width: 768px) {
+  .body {
+    background: url("../public/pink\ lamps.png");
+    display: flex;
+    flex-direction: column;
+  }
+}

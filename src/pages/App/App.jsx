@@ -35,7 +35,14 @@ export default function App() {
         <div className="my-image-container">
           <img src="./avatar.png" alt="avatar" />
         </div>
-
+        <div className="contact-icons">
+  <a href="https://github.com/Carny94" target="_blank">
+    <img src="./giticon.png" alt="git" />
+  </a>
+  <a href="http://www.linkedin.com/in/carneala-odom/" target="_blank">
+    <img src="./linkin.png" alt="linkedin" />
+  </a>
+      </div>    
         <div className="About-me-container">
           <div className="square-container">
             <div className="square">
@@ -62,10 +69,10 @@ export default function App() {
           </p>
         </div>
       </div>
+      
 
 
       <h3 className="section-header-skills"> SKILLS &<br />
-
         EXPERIENCE!
       </h3>
 

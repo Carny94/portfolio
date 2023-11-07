@@ -118,10 +118,14 @@ export default function App() {
           <img src="./CQ.png" alt="love" width="400" height="250" />
         </div>
         <div className="portfolio-3">
+         <a href="https://blessday-b7e402f70bc7.herokuapp.com/">
           <h2>BlessDay</h2>
+         </a>
+         <img src="./blessday.png"  alt="bless" width="400" height="250" />
         </div>
         <div className="portfolio-4">
-          <h2>Game</h2>
+          <h2>Matching Card Game</h2>
+          <img src="./matchinggame.png" alt="game" width="400" height="250" />
         </div>
       </div>
        <ContactForm />

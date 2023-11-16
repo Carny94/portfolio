@@ -125,8 +125,8 @@ export default function App() {
         </div>
         <div className="portfolio-4">
           <a href="https://carny94.github.io/Memory-Game/">
-          </a>
           <h2>Matching Card Game</h2>
+          </a>
           <img src="./matchinggame.png" alt="game" width="400" height="250" />
         </div>
       </div>

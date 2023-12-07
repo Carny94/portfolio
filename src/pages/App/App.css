@@ -155,6 +155,7 @@ a {
   display: flex;
   justify-content: center; 
   align-items: center;
+  color:antiquewhite; 
 }
 @media only screen and (max-width: 768px) {
 .Experience-container {

@@ -109,7 +109,7 @@ export default function App() {
           <a href="https://luxd-90407e25f855.herokuapp.com/stylist/new">
             <h2>LuxD Reviews</h2>
           </a>
-          <img src="./luximg.png" alt="love" width="400" height="250" />
+          <img src="./luxdnew.png" alt="love" width="400" height="250" />
         </div>
         <div className="portfolio-2">
           <a href="https://github.com/andrewsegovia00/CuisineQuest">

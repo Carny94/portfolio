@@ -33,7 +33,7 @@ export default function App() {
       <h3 className="section-header"> ABOUT CARNEALA...</h3>
       <div className="Main-container-1" id="Main-container">
         <div className="my-image-container">
-          <img src="./avatar.png" alt="avatar" />
+          <img src="./portfoliop.jpg" alt="avatar" />
         </div>
         <div className="contact-icons">
   <a href="https://github.com/Carny94" target="_blank">
